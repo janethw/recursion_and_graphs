@@ -2,9 +2,9 @@ from collections import deque
 
 
 def main():
-    # Simulated inputs
-    coins = [50, 100, 200, 1, 2, 5, 10, 20]
-    v = 934  # Target value
+    # Simulated input
+    coins = [1, 3, 4]
+    v = 6  # Target value
 
     # Check if inputs are valid
     if not validate_input(v, coins):
@@ -20,7 +20,7 @@ def main():
 
 
 def bfs(v, coins):
-    """ The function uses breadth first search algorithm to calculate the
+    """ The function uses the breadth first search algorithm to calculate the
     minimum number of coins required to achieve a target value v given an
     infinite supply of the coins in the coins list.
 
